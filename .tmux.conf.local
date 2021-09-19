@@ -14,6 +14,10 @@
 # then uncomment the following line to make Meta + arrow keys mapping work
 #set -ga terminal-overrides "*:kUP3=\e[1;9A,*:kDN3=\e[1;9B,*:kRIT3=\e[1;9C,*:kLFT3=\e[1;9D"
 
+# window navigation
+bind -n C-h previous-window # select previous window
+bind -n C-l next-window     # select next window
+
 
 # -- windows & pane creation ---------------------------------------------------
 
